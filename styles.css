@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.card-center-title {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bk-grey {
+    background-color: #e4e4e4;
+}
+
+#container-principal {
+    justify-content: space-around;
+}
+
+.sidebar {
+    background-color: #f4f4f4;
+    width: 25%;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.user-icon {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    min-width: 200px;
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.sidebar p {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.menu li {
+    margin: 10px 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 10px;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.menu a:hover {
+    background-color: #d4d4d4;
+}
+
+.groove-border {
+    border-style: groove;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.tasks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.task-column {
+    width: 45%;
+    margin-left: 15px;
+}
+
+.task-list {
+    padding-left: 20px;
+}
+
+.task-list li {
+    margin: 5px 0;
+}
+
+.task-list button {
+    margin-left: 10px;
+    padding: 2px 5px;
+    background-color: #ff4c4c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.task-list button:hover {
+    background-color: #ff0000;
+}
